@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        form {
+            border: 2px solid black;
+            padding: 40px;
+            display: inline-block;
+            border-radius: 15px;
+        }
+        div select{
+            width: 325px;
+        }
+        div input{
+            width: 317px;
+        }
+        textarea{
+            width: 319px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="./index.html">Home</a> |
+    <a href="./education.html">Education</a> |
+    <a href="./work.html">Work</a> |
+    <a href="./contact.html">Contact</a>
+    <hr>
+    <h1>Contact Me</h1>
+
+    <form action="#">
+        <div style="background-color: bisque;">Enter your info..</div><br>
+        <!-- <label for="name" >Your Name :</label><br>
+        <input type="text" name="fname" id="fname" placeholder="full name"><br><br> -->
+        <div>
+            <label>
+                Your Name :<br>
+                <input type="text" name="your name" placeholder="full name">
+            </label>
+        </div><br>
+
+        <!-- <label for="email">Your E-mail :</label><br>
+        <input type="text" name="lname" id="lname" placeholder="email address"><br><br> -->
+
+        <div>
+            <label>
+                Your E-mail :<br>
+                <input type="text" name="E-mail" placeholder="e-mail address">
+            </label>
+        </div><br>
+
+        <label for="gender">Gender</label><br>
+        <div>
+            <select name="" id="">
+                <option value="select" selected disabled>Select..</option>
+                <option value="man">Man</option>
+                <option value="womn">Woman</option>
+                <option value="notSpecified">Not specified</option>
+            </select><br><br>
+        </div>
+        <label for="message">Message</label><br>
+        <textarea name="message" id="message" rows="5" cols="40"></textarea>
+
+        <br><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+
+</html>
